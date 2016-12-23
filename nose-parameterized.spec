@@ -4,7 +4,7 @@
 #
 Name     : nose-parameterized
 Version  : 0.5.0
-Release  : 3
+Release  : 4
 URL      : http://pypi.debian.net/nose-parameterized/nose-parameterized-0.5.0.tar.gz
 Source0  : http://pypi.debian.net/nose-parameterized/nose-parameterized-0.5.0.tar.gz
 Summary  : Parameterized testing with any Python test framework
