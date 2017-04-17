@@ -4,9 +4,9 @@
 #
 Name     : nose-parameterized
 Version  : 0.6.0
-Release  : 5
-URL      : http://pypi.debian.net/nose-parameterized/nose-parameterized-0.6.0.tar.gz
-Source0  : http://pypi.debian.net/nose-parameterized/nose-parameterized-0.6.0.tar.gz
+Release  : 6
+URL      : https://pypi.debian.net/nose-parameterized/nose-parameterized-0.6.0.tar.gz
+Source0  : https://pypi.debian.net/nose-parameterized/nose-parameterized-0.6.0.tar.gz
 Summary  : Parameterized testing with any Python test framework (DEPRECATED; See the 'parameterized' package)
 Group    : Development/Tools
 License  : BSD-3-Clause FreeBSD
@@ -39,12 +39,12 @@ python components for the nose-parameterized package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1490284218
+export SOURCE_DATE_EPOCH=1492438935
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1490284218
+export SOURCE_DATE_EPOCH=1492438935
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
