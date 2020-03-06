@@ -4,7 +4,7 @@
 #
 Name     : nose-parameterized
 Version  : 0.6.0
-Release  : 29
+Release  : 30
 URL      : https://pypi.debian.net/nose-parameterized/nose-parameterized-0.6.0.tar.gz
 Source0  : https://pypi.debian.net/nose-parameterized/nose-parameterized-0.6.0.tar.gz
 Summary  : Parameterized testing with any Python test framework (DEPRECATED; See the 'parameterized' package)
@@ -21,33 +21,12 @@ BuildRequires : tox
 BuildRequires : virtualenv
 
 %description
-Parameterized testing with any Python test framework
 ====================================================
-
-DEPRECATION WARNING
--------------------
-
-The ``nose-parameterized`` package is deprecated and has been renamed to ``parameterized``.
-
-See:
-
-- https://pypi.python.org/pypi/parameterized
-- https://github.com/wolever/parameterized
-
-
-Migrating from ``nose-parameterized`` to ``parameterized``
-----------------------------------------------------------
-
-To migrate a codebase from ``nose-parameterized`` to ``parameterized``:
-
-1. Update the requirements file, replacing ``nose-parameterized`` with
-   ``parameterized``.
-
-2. Replace all references to ``nose_parameterized`` with ``parameterized``::
-
-    $ perl -pi -e 's/nose_parameterized/parameterized/g' your-codebase/
-
-3. You're done!
+        
+        DEPRECATION WARNING
+        -------------------
+        
+        The ``nose-parameterized`` package is deprecated and has been renamed to ``parameterized``.
 
 %package license
 Summary: license components for the nose-parameterized package.
@@ -70,7 +49,7 @@ python components for the nose-parameterized package.
 Summary: python3 components for the nose-parameterized package.
 Group: Default
 Requires: python3-core
-Provides: pypi(nose-parameterized)
+Provides: pypi(nose_parameterized)
 
 %description python3
 python3 components for the nose-parameterized package.
@@ -85,8 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583187253
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583537834
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
