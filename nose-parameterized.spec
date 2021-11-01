@@ -4,7 +4,7 @@
 #
 Name     : nose-parameterized
 Version  : 0.6.0
-Release  : 43
+Release  : 44
 URL      : https://pypi.debian.net/nose-parameterized/nose-parameterized-0.6.0.tar.gz
 Source0  : https://pypi.debian.net/nose-parameterized/nose-parameterized-0.6.0.tar.gz
 Summary  : Parameterized testing with any Python test framework (DEPRECATED; See the 'parameterized' package)
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1603396930
+export SOURCE_DATE_EPOCH=1635776984
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
