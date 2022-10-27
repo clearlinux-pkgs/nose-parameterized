@@ -1,0 +1,11 @@
+--- nose-parameterized-0.6.0/setup.py~	2017-03-21 17:27:28.000000000 +0000
++++ nose-parameterized-0.6.0/setup.py	2022-10-27 23:40:07.279566316 +0000
+@@ -8,7 +8,7 @@
+ os.chdir(os.path.dirname(sys.argv[0]) or ".")
+ 
+ try:
+-    long_description = open("README.rst", "U").read()
++    long_description = open("README.rst", "r").read()
+ except IOError:
+     long_description = "See https://github.com/wolever/parameterized"
+ 
